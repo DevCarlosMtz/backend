@@ -1,22 +1,13 @@
-# Remiesa - Guía de Instalación y Uso
+# Examen Práctico - Guía de Instalación y Uso
 
-Este documento proporciona instrucciones detalladas para configurar y ejecutar el proyecto **Remiesa** en tu entorno. Asegúrate de seguir estos pasos cuidadosamente para garantizar una instalación exitosa.
-
-## Índice
-
-1. [Requerimientos](#requerimientos)
-2. [Configuración de Node.js](#configuración-de-nodejs)
-3. [Levantamiento de Contenedores Docker](#levantamiento-de-contenedores-docker)
-4. [Instalación del Proyecto Backend (Laravel 8)](#instalación-del-proyecto-backend-laravel-8)
-5. [Instalación del Proyecto Frontend (Nuxt 2)](#instalación-del-proyecto-frontend-nuxt-2)
-6. [Comandos Básicos de Docker](#comandos-básicos-de-docker)
-7. [Uso del proyecto](#uso-del-proyecto)
+Este documento proporciona instrucciones detalladas para configurar y ejecutar el proyecto en tu entorno. Asegúrate de seguir estos pasos cuidadosamente para garantizar una instalación exitosa.
 
 ## Requerimientos
 
 Antes de comenzar, asegúrate de tener los siguientes componentes instalados en tu sistema:
 
-- [Docker](https://www.docker.com/) (Se recomienda en una distribución de Linux)
+- [Laragon](https://laragon.org/download/) (Se recomienda la distribución Downland Laragon - Full)
+- [Versión de PHP](8.2.25)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Node version manager (nvm)](https://github.com/nvm-sh/nvm)
 
