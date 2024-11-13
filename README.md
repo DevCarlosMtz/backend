@@ -7,7 +7,7 @@ Este documento proporciona instrucciones detalladas para configurar y ejecutar e
 Antes de comenzar, asegúrate de tener los siguientes componentes instalados en tu sistema:
 
 - [Laragon](https://laragon.org/download/) (Se recomienda la distribución Downland Laragon - Full)
-- [Versión de PHP](8.2.25)
+- [Versión de PHP] (8.2.25)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Node version manager (nvm)](https://github.com/nvm-sh/nvm)
 
