@@ -1,0 +1,15 @@
+{
+    "recommendations": [
+        "onecentlin.laravel-extension-pack",
+        "tomoki1207.pdf",
+        "gruntfuggly.todo-tree",
+        "adpyke.vscode-sql-formatter",
+        "ms-ceintl.vscode-language-pack-es",
+        "esbenp.prettier-vscode",
+        "natqe.reload",
+        "mehedidracula.php-namespace-resolver",
+        "bmewburn.vscode-intelephense-client",
+        "christian-kohler.path-intellisense",
+        "eamodio.gitlens"
+    ]
+}

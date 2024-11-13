@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * ---------------------------------------------------------------------------
+ * Rutas Api "{{ fileName }}"
+ * ---------------------------------------------------------------------------
+ *
+ * @api {{host}}/api/{{ fileNameSlug }}
+ */
+
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\{{ nameController }};
+
+Route::get('/', [{{ nameController }}::class, 'index']);
+Route::get('/show', [{{ nameController }}::class, 'show']);
+Route::post('/', [{{ nameController }}::class, 'store']);
+Route::put('/', [{{ nameController }}::class, 'update']);
+Route::delete('/', [{{ nameController }}::class, 'destroy']);

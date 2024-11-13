@@ -1,0 +1,11 @@
+# Crear y/o ejecutar contenedor DOCKER
+docker compose up -d --build
+
+# Uso de composer
+docker compose exec cobupem-backend composer <args>
+
+# Uso de artisan
+docker compose exec cobupem-backend php artisan <args>
+
+# Detener contenedor DOCKER
+docker compose kill

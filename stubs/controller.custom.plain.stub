@@ -1,0 +1,32 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Helpers\ResponseHelper;
+use App\Services\{{ classNameService }};
+use App\Http\Controllers\Controller;
+use App\Requests\Services\{{ classNameService }} as RulesRequest;
+
+class {{ classNameController }} extends Controller
+{
+    /**
+     * Construct
+     *
+     * @return void
+     */
+    public function _construct()
+    {
+        //
+    }
+
+    /**
+     * Example method
+     *
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function exampleMethod()
+    {
+        $exampleMethod = {{ classNameService }}::exampleMethod();
+        return ResponseHelper::json($exampleMethod, "ExampleMessage");
+    }
+}

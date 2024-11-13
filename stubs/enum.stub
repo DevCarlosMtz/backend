@@ -1,0 +1,11 @@
+<?php
+
+namespace App\Enums;
+use App\Traits\Enums\ConstantsAccess;
+
+class {{ className }}
+{
+    use ConstantsAccess;
+
+    const EXAMPLE = 'Hello world';
+}
